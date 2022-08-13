@@ -1,6 +1,12 @@
-.containerBrands {
+.containerBrands,
+.containerSalesman {
+   text-align: center;
    background-color: white;
    padding: 1em 0;
+}
+
+.containerContent {
+   padding-bottom: 120px;
 }
 
 .carouselBrands {
@@ -36,6 +42,11 @@
 .cardCar {
    min-height: 470px;
    min-width: 300px;
+}
+
+.cardCarImage {
+   min-height: 230px;
+   background: url("../img/default.png") center / cover no-repeat;
 }
 
 .carContainer {
@@ -74,4 +85,44 @@
 
 .carSpec {
    font-weight: 600;
+}
+
+.salesman {
+   margin-top: 30px;
+   padding: 1em;
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+   color: black;
+   &:hover {
+      background-color: $gold;
+   }
+}
+
+.salesmanName {
+   font-size: 2em;
+   font-weight: 300;
+}
+
+.salesmanDesc {
+   color: $dark-gold;
+   font-size: 0.8em;
+   font-weight: 700;
+   text-transform: uppercase;
+   letter-spacing: 2px;
+}
+
+.salesmanImage {
+   border: 1px solid $dark-gold;
+   border-radius: 100%;
+   margin: 0 auto;
+   width: 200px;
+   height: 200px;
+
+   &.salesmanImage--default {
+      background: url("../img/default.png") center / cover no-repeat;
+   }
+   &.salesmanImage--tcar {
+      background: url("../img/tcar.jpg") center / cover no-repeat;
+   }
 }
