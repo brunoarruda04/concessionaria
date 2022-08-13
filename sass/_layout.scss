@@ -1,0 +1,23 @@
+.container00 {
+   &.container01 {
+      background-image: url("../img/lamborghini-banner.jpg");
+   }
+
+   &.carousel01 {
+      background-color: red;
+   }
+}
+
+#headerContent {
+   color: $gold;
+}
+
+.headerLogo {
+   width: 200px;
+}
+
+.headerIcon {
+   color: $secondary-gold;
+   font-size: 14px;
+   padding: 0.5em;
+}

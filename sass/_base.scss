@@ -1,0 +1,61 @@
+// Color Theme Swatches in Hex
+$black: #000000;
+$dark-gold: #301f00;
+$dark-orange: #8a3e00;
+$gold: #e69d00;
+$secondary-gold: #bf7c00;
+$yellow: #f5cd69;
+
+$main-font: "Roboto", sans-serif;
+
+body {
+   background-color: black;
+   color: white;
+}
+
+.container00 {
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 100vh;
+}
+
+.containerTitle {
+   font-size: 32px;
+   font-weight: 100;
+   color: $gold;
+}
+
+.topPadding {
+   padding-top: 200px;
+}
+
+.shadowText {
+   text-shadow: 1px 1px 50px $black;
+}
+
+.shadowBox {
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.titleContent {
+   color: $gold;
+   font-family: $main-font;
+   font-size: 80px;
+   font-weight: 100;
+}
+
+.subtitleContent {
+   font-family: $main-font;
+   font-size: 18px;
+   font-weight: 300;
+   line-height: 20px;
+   text-transform: uppercase;
+}
+
+.button {
+   border-color: $gold;
+   color: $gold;
+   padding: 1em 5em;
+   font-size: 20px;
+}

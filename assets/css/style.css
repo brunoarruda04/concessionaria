@@ -1,0 +1,152 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+.container00 {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.containerTitle {
+  font-size: 32px;
+  font-weight: 100;
+  color: #e69d00;
+}
+
+.topPadding {
+  padding-top: 200px;
+}
+
+.shadowText {
+  text-shadow: 1px 1px 50px #000000;
+}
+
+.shadowBox {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.titleContent {
+  color: #e69d00;
+  font-family: "Roboto", sans-serif;
+  font-size: 80px;
+  font-weight: 100;
+}
+
+.subtitleContent {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+
+.button {
+  border-color: #e69d00;
+  color: #e69d00;
+  padding: 1em 5em;
+  font-size: 20px;
+}
+
+.container00.container01 {
+  background-image: url("../img/lamborghini-banner.jpg");
+}
+.container00.carousel01 {
+  background-color: red;
+}
+
+#headerContent {
+  color: #e69d00;
+}
+
+.headerLogo {
+  width: 200px;
+}
+
+.headerIcon {
+  color: #bf7c00;
+  font-size: 14px;
+  padding: 0.5em;
+}
+
+.containerBrands {
+  background-color: white;
+  padding: 1em 0;
+}
+
+.carouselBrands {
+  display: flex;
+  gap: 20px;
+  overflow-x: scroll;
+  padding: 1em 0.5em;
+  scrollbar-color: #e69d00 transparent;
+}
+
+.carcardCarouselBrands {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  min-height: 120px;
+  min-width: 300px;
+}
+
+.cardCarouselImage {
+  width: auto;
+  max-height: 75px;
+}
+
+.containerCars {
+  display: flex;
+  align-items: center;
+  overflow-x: scroll;
+  padding: 1em 0;
+  scrollbar-color: #e69d00 transparent;
+  gap: 20px;
+}
+
+.cardCar {
+  min-height: 470px;
+  min-width: 300px;
+}
+
+.carContainer {
+  padding: 0.5em 1em;
+  line-height: 10px;
+  text-align: center;
+  color: #000000;
+}
+
+.carContent {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  padding: 0.5em 0;
+}
+
+.carTitle {
+  font-size: 1.5em;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.carPrice {
+  color: #8a3e00;
+  font-size: 1.7em;
+  font-weight: 600;
+}
+
+.carColor {
+  color: #301f00;
+}
+
+.carYear {
+  color: #8a3e00;
+}
+
+.carSpec {
+  font-weight: 600;
+}
+
+/*# sourceMappingURL=style.css.map */
