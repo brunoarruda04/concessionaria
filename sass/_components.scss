@@ -5,6 +5,14 @@
    padding: 1em 0;
 }
 
+.containerPopular {
+   background-color: #0e0c0a;
+}
+
+#popularTitle {
+   color: $yellow;
+}
+
 .containerContent {
    padding-bottom: 120px;
 }
@@ -31,22 +39,35 @@
 }
 
 .containerCars {
-   display: flex;
-   align-items: center;
-   overflow-x: scroll;
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
    padding: 1em 0;
    scrollbar-color: $gold transparent;
-   gap: 20px;
+   gap: 5px;
+
+   &.carouselCars {
+      display: flex;
+      flex-direction: row;
+      gap: 20px;
+      overflow-x: scroll;
+   }
 }
 
 .cardCar {
    min-height: 470px;
    min-width: 300px;
+   &.cardPopularCar {
+      min-height: 300px;
+      min-width: 100%;
+   }
 }
 
 .cardCarImage {
    min-height: 230px;
    background: url("../img/default.png") center / cover no-repeat;
+   &.cardPopularCarImage {
+      min-height: 120px;
+   }
 }
 
 .carContainer {
@@ -54,6 +75,12 @@
    line-height: 10px;
    text-align: center;
    color: $black;
+
+   &.popularCarContainer {
+      text-align: left;
+      line-height: 8px;
+      padding: 0.4em;
+   }
 }
 
 .carContent {
@@ -61,26 +88,51 @@
    justify-content: center;
    gap: 5px;
    padding: 0.5em 0;
+
+   &.popularCarContent {
+      display: grid;
+      grid-template-columns: repeat(2, 2fr);
+      justify-content: center;
+      font-size: 0.8em;
+      margin-left: 0.3em;
+   }
 }
 
 .carTitle {
    font-size: 1.5em;
    font-weight: 300;
    text-transform: uppercase;
+
+   &.popularCarTitle {
+      max-width: 100%;
+      font-size: 1.1em;
+   }
 }
 
 .carPrice {
    color: $dark-orange;
    font-size: 1.7em;
    font-weight: 600;
+
+   &.popularCarPrice {
+      font-size: 1.4em;
+   }
 }
 
 .carColor {
    color: $dark-gold;
+
+   &.popularCarColor {
+      font-size: 1em;
+   }
 }
 
 .carYear {
    color: $dark-orange;
+
+   &.popularCarYear {
+      font-size: 1em;
+   }
 }
 
 .carSpec {
