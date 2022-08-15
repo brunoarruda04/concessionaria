@@ -9,7 +9,7 @@
 }
 
 #headerContent {
-   color: $gold;
+   color: #aaaaaa;
 }
 
 .headerLogo {
@@ -17,7 +17,45 @@
 }
 
 .headerIcon {
-   color: $secondary-gold;
    font-size: 14px;
    padding: 0.5em;
+}
+
+.headerSearch {
+   border-color: #aaaaaa;
+   background-color: transparent;
+   &::placeholder {
+      color: white;
+   }
+}
+
+#headerButton {
+   border: 1px solid $gold;
+}
+
+.customToggler {
+   font-size: 32px;
+   color: $secondary-gold;
+}
+
+.footer {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   color: $yellow;
+}
+
+.footerCopy {
+   color: white;
+}
+
+.footerContent {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+
+.footerIcon {
+   color: white;
+   padding: 0 0.5em;
 }

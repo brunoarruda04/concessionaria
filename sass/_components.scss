@@ -9,12 +9,26 @@
    background-color: #0e0c0a;
 }
 
+.categories {
+   display: grid;
+   gap: 10px;
+   grid-template-columns: 1fr 1fr;
+}
+
+.categoryImage {
+   width: 100%;
+}
+
+.categoryTitle {
+   color: white;
+}
+
 #popularTitle {
    color: $yellow;
 }
 
 .containerContent {
-   padding-bottom: 120px;
+   padding: 50px 0;
 }
 
 .carouselBrands {
