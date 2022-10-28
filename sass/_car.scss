@@ -1,0 +1,30 @@
+.carPageImage {
+   max-width: 100%;
+}
+
+.containerCarTitle {
+   align-items: center;
+   border-bottom: 1px solid $dark-orange;
+   display: flex;
+   justify-content: center;
+   padding: 0.3em 1em;
+   font-size: 2em;
+}
+
+.carPageBrandTitle {
+   font-weight: 100;
+   color: $gold;
+}
+
+.carPageTitle {
+   margin: 0 0.3em;
+   text-transform: uppercase;
+}
+
+.carPageDescription {
+   font-weight: 600;
+   font-size: 1em;
+   color: $gold-gray;
+   margin: 0.3em;
+   text-transform: uppercase;
+}

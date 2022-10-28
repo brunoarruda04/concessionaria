@@ -95,6 +95,11 @@
       line-height: 8px;
       padding: 0.4em;
    }
+
+   &.popularCarButton {
+      text-align: center;
+      padding: 1em 0;
+   }
 }
 
 .carContent {
@@ -154,6 +159,17 @@
    &.popularCarSpec {
       text-align: end;
    }
+}
+
+.carContentButton {
+   background-color: $gold;
+   border: 1.6px solid $dark-gold;
+   border-radius: 10px;
+   font-size: 1.2em;
+   font-weight: 300;
+   justify-content: center;
+   margin: 0 auto;
+   padding: 0.5em 1em;
 }
 
 .salesman {
